@@ -1,5 +1,5 @@
 #!/bin/bash
 # this is a comment
 
-grep processor /proc/cpuinfo | wc -l
+echo 'Number of cpus: ' + grep processor /proc/cpuinfo | wc -l
 
