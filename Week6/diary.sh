@@ -7,5 +7,5 @@
 #: Description : Writing a diary
 #: Options : 
 read var
-
-echo $var >> Diary.txt
+thedate=$( date )
+echo $thedate $var >> MyDiary.txt
